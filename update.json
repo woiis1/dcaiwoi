@@ -3,6 +3,7 @@
   "versionName": "4.0.1",
   "size": 337395,
   "md5": "8a69ff63673b1111ffd830823afa56d9",
-  "url": "https://cdn.jsdelivr.net/gh/woiis1/dcaiwoi@main/DC.apk",
-  "changelog": "4.0.1 更新内容\n1. 默认更新地址改为 GitHub 仓库链接，并按顺序自动尝试 GitHub 接口与 jsDelivr CDN\n2. 检查更新在网络抖动时会自动换源重试，不用手动操作\n3. 发版脚本重试次数提高到 80 次，推送失败会一直重试直到成功"
+  "url": "https://cdn.jsdelivr.net/gh/woiis1/dcaiwoi@89ea95264cc4b93315d67e583a3bbdc80da7ac41/DC.apk",
+  "changelog": "4.0.1 更新内容\n1. 默认更新地址改为 GitHub 仓库链接，并按顺序自动尝试 GitHub 接口与 jsDelivr CDN\n2. 检查更新在网络抖动时会自动换源重试，不用手动操作\n3. 发版脚本重试次数提高到 80 次，推送失败会一直重试直到成功",
+  "manifestApi": "https://api.github.com/repos/woiis1/dcaiwoi/contents/update.json"
 }
