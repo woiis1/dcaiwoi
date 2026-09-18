@@ -3,6 +3,7 @@
   "versionName": "3.2.1",
   "size": 337396,
   "md5": "6e8a0700e22d9afb90e03b978f6ea463",
-  "url": "https://cdn.jsdelivr.net/gh/woiis1/dcaiwoi@main/DC.apk",
-  "changelog": "3.2.1 更新内容\n1. 更新源改为 GitHub API 实时读取，彻底避开 CDN 缓存导致的“检查不到新版本”\n2. APK 下载地址用提交号固定（jsDelivr），下载快、永久有效、不串版本\n3. 保留局域网服务器与 USB 转发作为备用更新源\n4. 一键发版脚本：上传更新.bat，会自动写版本号、大小、MD5 与更新日志，失败自动重试"
+  "url": "https://cdn.jsdelivr.net/gh/woiis1/dcaiwoi@fee576753391a84e77eefdfd7e36504285ce320d/DC.apk",
+  "changelog": "3.2.1 更新内容\n1. 更新源改为 GitHub API 实时读取，彻底避开 CDN 缓存导致的“检查不到新版本”\n2. APK 下载地址用提交号固定（jsDelivr），下载快、永久有效、不串版本\n3. 保留局域网服务器与 USB 转发作为备用更新源\n4. 一键发版脚本：上传更新.bat，会自动写版本号、大小、MD5 与更新日志，失败自动重试",
+  "manifestApi": "https://api.github.com/repos/woiis1/dcaiwoi/contents/update.json"
 }
