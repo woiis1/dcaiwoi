@@ -1,8 +1,8 @@
 {
-  "versionCode": 41,
-  "versionName": "3.1.0",
+  "versionCode": 42,
+  "versionName": "3.2.0",
   "size": 337396,
-  "md5": "f99240d86e603345aa5e5c5629b020d3",
+  "md5": "65d24c3f4ebfb536cc689f700a0f6c6b",
   "url": "https://cdn.jsdelivr.net/gh/woiis1/dcaiwoi@main/DC.apk",
   "changelog": "3.1.0 更新内容\n1. XML 画布支持嵌套 SVG 矢量图与嵌套 XML 组件\n2. 新增 CSS 风格样式与富文本（AI 回复文字也能变色）\n3. 新增 for / while / repeat 循环与变量\n4. 新增后台进程：可循环常驻，支持暂停/停止/重启\n5. 新增点击事件、弹层卡片、静默页面更新\n6. 自动检查更新：打开即检查，设置里有“更新”入口\n7. 修复卡片退出重进后不再绘制、XML 校验误报等问题"
 }
