@@ -1,9 +1,8 @@
 {
-  "versionCode": 45,
-  "versionName": "4.0.1",
-  "size": 337395,
-  "md5": "8a69ff63673b1111ffd830823afa56d9",
-  "url": "https://cdn.jsdelivr.net/gh/woiis1/dcaiwoi@6acc2a353e9e2743277ea5e3d8f1db1fe913b5c3/DC.apk",
-  "changelog": "4.0.1 更新内容\n1. 默认更新源改为 GitHub 官方接口（实时、无 CDN 缓存），并按顺序自动尝试 jsDelivr、raw 直链与备用镜像\n2. 下载支持多地址自动切换：某个地址连不上会立刻换下一个，不用手动重试\n3. 版本号、大小、MD5、更新日志全部由一键发版脚本自动写入，发布更省心\n4. 修复部分网络下 raw.githubusercontent 被 DNS 污染导致检查不到更新的问题\n5. 发版脚本改为多线路推送（HTTPS / SSH 443 / HTTP1.1 轮换），网络抖动时会一直重试到成功",
-  "manifestApi": "https://api.github.com/repos/woiis1/dcaiwoi/contents/update.json"
+  "versionCode": 46,
+  "versionName": "4.0.2",
+  "size": 341491,
+  "md5": "9c30196b584e0b1f859477b90f22ce76",
+  "url": "https://cdn.jsdelivr.net/gh/woiis1/dcaiwoi@main/DC.apk",
+  "changelog": "4.0.2 更新内容\n1. 新增“XML 画布设置”：可以一键关闭/开启“允许 AI 使用 XML 画布”\n2. 新增默认画布尺寸设置：AI 不写尺寸时用你设定的宽高（0 = 按内容自适应）\n3. 新增“允许 AI 自定义画布大小”开关：关掉后卡片会被限制在默认尺寸内\n4. XML 画布新增动作：size:300,200 运行中改画布大小、size:full 铺满屏幕\n5. 新增 showcard / hidden 动作：整张卡片显示或隐藏，方便做动画\n6. 关闭 AI 画布后，提示词里不再下发画布说明书，AI 也不会再输出卡片"
 }
