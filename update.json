@@ -1,9 +1,8 @@
 {
-  "versionCode": 48,
-  "versionName": "4.0.4",
-  "size": 341492,
-  "md5": "91f899d6f049b00c28818609ae208a4c",
-  "url": "https://cdn.jsdelivr.net/gh/woiis1/dcaiwoi@3946164a6c9490ddd3cdd03cab9b3a987e70ead7/DC.apk",
-  "changelog": "4.0.4 更新内容\n1. 检查更新失败时弹窗提示“可能未连接上网络，请检查网络后再试一次”，并带【再试一次】按钮\n2. 弹窗会列出“依次尝试的每个地址 + 各自结果”，不再只显示最后那个 127.0.0.1 备用地址\n3. 失败弹窗里给出主更新源（GitHub 默认地址），并可一键【恢复默认】\n4. 已是最新版时改为弹窗提示：“你已经是 x.y.z 为最新版”\n5. 自动检查仍然保持静默，不会打扰",
-  "manifestApi": "https://api.github.com/repos/woiis1/dcaiwoi/contents/update.json"
+  "versionCode": 49,
+  "versionName": "4.0.5",
+  "size": 341491,
+  "md5": "3a9ab1daf64e26b31afa9ea17b076875",
+  "url": "https://cdn.jsdelivr.net/gh/woiis1/dcaiwoi@main/DC.apk",
+  "changelog": "4.0.5 更新内容\n1. 修复“AI 明明画了，界面上却不显示”的主要成因：XML 被截断/没闭合时以前会整块丢掉，现在会自动补全闭合标签再渲染\n2. 新增空白卡片诊断：卡片里没有可见元素、尺寸为 0、内容全在未显示的弹层里时，直接提示原因，不再默默空白\n3. 第一个场景是空的、内容在后面场景里时，自动切到有内容的场景\n4. 关闭“允许 AI 使用 XML 画布”时会明确提示“AI 画了 N 张卡片，但被设置挡住了”\n5. 每次渲染都会写日志（场景数/元素数/尺寸），方便排查"
 }
