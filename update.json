@@ -3,6 +3,7 @@
   "versionName": "4.0.6",
   "size": 345587,
   "md5": "1a9ec5163fdae265af75e59376ddb8d9",
-  "url": "https://cdn.jsdelivr.net/gh/woiis1/dcaiwoi@main/DC.apk",
-  "changelog": "4.0.6 更新内容\n1. 报错信息现在可以复制：弹窗右下角新增小号“复制”按钮，正文也支持长按选择复制\n2. 检查更新失败、余额不足等弹窗都支持一键复制报错内容\n3. XML 校验失败 / 空白卡片的提示卡里也带小号“复制”键，方便把报错发出来排查\n4. 弹窗按钮字号统一调小，不喧宾夺主"
+  "url": "https://cdn.jsdelivr.net/gh/woiis1/dcaiwoi@25b88c7d6430df36c87c0098f73a204e0ff25de5/DC.apk",
+  "changelog": "4.0.6 更新内容\n1. 报错信息现在可以复制：弹窗右下角新增小号“复制”按钮，正文也支持长按选择复制\n2. 检查更新失败、余额不足等弹窗都支持一键复制报错内容\n3. XML 校验失败 / 空白卡片的提示卡里也带小号“复制”键，方便把报错发出来排查\n4. 弹窗按钮字号统一调小，不喧宾夺主",
+  "manifestApi": "https://api.github.com/repos/woiis1/dcaiwoi/contents/update.json"
 }
